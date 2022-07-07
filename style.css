@@ -54,6 +54,7 @@ div a{
     border-left: 3px solid #8a2be2;
     border-right: 3px solid #8a2be2;
     font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .nome:hover{
@@ -116,6 +117,7 @@ div a{
     .nome{
         font-size: 14px;
         text-align: center;
+        margin-bottom: 0;
     } 
     .nome:hover{
         color: black;
