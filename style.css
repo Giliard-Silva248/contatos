@@ -70,10 +70,8 @@ div a{
     margin-top: 20px;
     text-align: center;
     background-color: #8a2be2;
-    font-size: 20px;
 }
 .ld{
-    font-size: 20px;
     width: 150px;
     border: 1px solid;
     border-radius: 30px;
@@ -85,15 +83,14 @@ div a{
 }
 .gh:hover, .ld:hover{
     width: 160px;
-    font-size: 22px;
 }
 .github{
-    width: 20px;
+    width: 30px;
     margin-left: 10px;
 }
 
 .linkedin{
-    width: 20px;
+    width: 30px;
     margin-right: 10px;
 }
 
@@ -122,12 +119,10 @@ div a{
     .nome:hover{
         color: black;
     }
-    .gh, .ld{
-        font-size: 13px;
+    
+    .github:disabled, .linkedin:disabled{
+        text-decoration: none;
         
-    }
-    .github, .linkedin{
-        width: 13px;
     }
 }
 @media(max-width: 360px){
@@ -148,10 +143,9 @@ div a{
     } 
     .gh, .ld{
         align-self: center;
-        font-size: 11px;
         width: 80px;
     }
-    .github, .linkedin{
-        width: 11px;
+    .github:disabled, .linkedin:disabled{
+        text-decoration: none;
     }
 }
