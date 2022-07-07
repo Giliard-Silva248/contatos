@@ -68,7 +68,6 @@ div a{
     align-self: flex-end;
     margin-top: 20px;
     text-align: center;
-    word-spacing: 10px;
     background-color: #8a2be2;
     font-size: 20px;
 }
@@ -80,7 +79,7 @@ div a{
     align-self: flex-start;
     margin-top: 20px;
     text-align: center;
-    word-spacing: 10px;
+    word-spacing: 50px;
     background-color: #8a2be2;
 }
 .gh:hover, .ld:hover{
@@ -89,10 +88,12 @@ div a{
 }
 .github{
     width: 20px;
+    margin-left: 10px;
 }
 
 .linkedin{
     width: 20px;
+    margin-right: 10px;
 }
 
 
