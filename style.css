@@ -55,6 +55,7 @@ div a{
     border-right: 3px solid #8a2be2;
     font-size: 25px;
     margin-bottom: 30px;
+    padding: 10px;
 }
 
 .nome:hover{
@@ -64,22 +65,24 @@ div a{
 
 .gh{
     width: 150px;
-    border: 1px solid;
     border-radius: 30px;
-    align-self: flex-end;
+    box-shadow: 1px 1px 10px 1px;
     margin-top: 20px;
     text-align: center;
     background-color: #8a2be2;
+    align-self: center;
 }
 .ld{
     width: 150px;
-    border: 1px solid;
+    box-shadow: 1px 1px 10px 1px;
     border-radius: 30px;
-    align-self: flex-start;
     margin-top: 20px;
     text-align: center;
-    word-spacing: 50px;
     background-color: #8a2be2;
+    align-self: center;
+}
+.ld a{
+    margin-left: 18px;
 }
 .gh:hover, .ld:hover{
     width: 160px;
@@ -97,8 +100,6 @@ div a{
 
 
 
-
-/*height*/
 @media(max-width: 600px){
     .container{
         height: 110vh;
@@ -125,27 +126,30 @@ div a{
         
     }
 }
-@media(max-width: 360px){
+@media(max-width: 400px){
     .container{ 
         height: 110vh;
     }
     .conteudo{
-        width: 100px;
-        height: 250px;
+        width: auto;
+        height: auto;
     }
     .img{
-        width: 80%;
-        margin-left: 10%;
+        margin-top: -30px;
+        width: 60%;
+        margin-left: 20%;
     }   
     .nome{
         font-size: 11px;
         text-align: center;
+        font-size: 10px;
+        padding: 2px;
     } 
     .gh, .ld{
-        align-self: center;
         width: 80px;
     }
     .github:disabled, .linkedin:disabled{
         text-decoration: none;
     }
 }
+
